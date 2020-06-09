@@ -4,9 +4,9 @@ var is_delicious = true;
 
 var food = ["ham", "lettuce", "apples", "rice"];
 
-var num2= 2;
+var num2 = 2;
 
-var num7= 7;
+var num7 = 7;
 
 var quotient= (num7/num2);
 
