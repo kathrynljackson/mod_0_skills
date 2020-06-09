@@ -1,23 +1,23 @@
-var food =["meat", "veggies", "fruit", "grain"]
+var food =["meat", "veggies", "fruit", "grain"];
 
-var is_delicious = true
+var is_delicious = true;
 
-var food = ["ham", "lettuce", "apples", "rice"]
+var food = ["ham", "lettuce", "apples", "rice"];
 
-var num2= 2
+var num2= 2;
 
-var num7= 7
+var num7= 7;
 
-var quotient= (num7/num2)
+var quotient= (num7/num2);
 
-console.log(quotient)
+console.log(quotient);
 
-var songs= ["Blackbird", "Hey Jude", "Twist and Shout"]
+var songs= ["Blackbird", "Hey Jude", "Twist and Shout"];
 
-songs.shift()
+songs.shift();
 
-console.log(songs)
+console.log(songs);
 
-var count= food.join(``)
+var count= food.join(``);
 
-console.log(count.length)
+console.log(count.length);
