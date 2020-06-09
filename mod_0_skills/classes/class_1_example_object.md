@@ -1,7 +1,7 @@
-# class_1.md
+# class_1_example.md
 
 
-## Instances of Dishes Class:
+## Instances of Dishes Class: Wine Glass
 
 
 ### Attributes
