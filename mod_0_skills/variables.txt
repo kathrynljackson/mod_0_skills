@@ -1,0 +1,23 @@
+var food =["meat", "veggies", "fruit", "grain"]
+
+var is_delicious = true
+
+var food = ["ham", "lettuce", "apples", "rice"]
+
+var num2= 2
+
+var num7= 7
+
+var quotient= (num7/num2)
+
+console.log(quotient)
+
+var songs= ["Blackbird", "Hey Jude", "Twist and Shout"]
+
+songs.shift()
+
+console.log(songs)
+
+var count= food.join(``)
+
+console.log(count.length)
