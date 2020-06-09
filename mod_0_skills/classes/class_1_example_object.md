@@ -23,4 +23,4 @@
 
 `changeColor`: changes color of the wine glass chosen
 
-`buyMore`: adds `1` to `3`, returns `Amount Owned: 4`
+`buyMore`: adds `1` to `3`, returns `Amount Owned: 4`  
