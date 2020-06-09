@@ -8,7 +8,7 @@
 
 `allClean` (Boolean)
 
-`Type` (string)
+`type` (string)
 
 `color` (string)
 
@@ -20,7 +20,7 @@
 
 `isClean` (uses `allClean`; states weather or not the object is clean)
 
-`organizeType` (uses `Type`; states type of object)
+`organizeType` (uses `type`; states type of object)
 
 `changeColor` (modifes `color`; changes color of the object)
 
