@@ -1,7 +1,7 @@
 # class_1.md
 
 
-## Class: Dishes
+## Class: Dish
 
 
 ### Attributes
@@ -10,7 +10,7 @@
 
 `type` (string)
 
-`color` (string)
+`material` (string)
 
 `inventory` (integer)
 
@@ -18,10 +18,10 @@
 
 ### Methods
 
-`isClean` (uses `allClean`; states weather or not the object is clean)
+`cleanNow` (modifies `allClean`; if false, changes the `allClean` status to true)
 
-`organizeType` (uses `type`; states type of object)
+`diffType` (modifies `type`; changes the `type` status to label the item as a different type)
 
-`changeColor` (modifes `color`; changes color of the object)
+`changeMat` (modifies `material`; changes material/textile of the object)
 
 `buyMore`(uses `inventory`; adds 1 to the total number of objects)

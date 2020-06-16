@@ -1,26 +1,26 @@
 # class_1_example.md
 
 
-## Instances of Dishes Class: Wine Glass
+## Instances of Dish Class: Wine Glass
 
 
 ### Attributes
 
-`allClean`: true
+`allClean`: false
 
-`type`: wineGlass
+`type`: 'long stem wine glass'
 
-`color`: blue
+`material`: 'glass'
 
 `inventory`: 3
 
 
 ### Methods
 
-`isClean`: returns `Status: clean`
+`cleanNow`: changes `allClean` status, returns `Status: clean`
 
-`organizeType`: returns `Long Stem wine glass`
+`diffType`: returns `stemless wine glass`
 
-`changeColor`: changes color of the wine glass chosen
+`changeMat`: changes material of the wine glass chosen; returns `plastic`
 
 `buyMore`: adds `1` to `3`, returns `Amount Owned: 4`  
