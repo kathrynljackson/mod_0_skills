@@ -6,13 +6,13 @@
 
 ### Attributes
 
-`allClean` (Boolean)
+`allClean` (Boolean): whether or not the item is clean, true = clean, false = not clean
 
-`type` (string)
+`type` (string): the specific version of the item
 
-`material` (string)
+`material` (string): what the item is made out of
 
-`inventory` (integer)
+`inventory` (integer): how many of that item currently owned 
 
 
 

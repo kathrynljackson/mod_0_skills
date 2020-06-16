@@ -1,29 +1,27 @@
 # class_1.md
 
 
-## Class: Employees
+## Class: Employee
 
 
 ### Attributes
 
-`employeeNames` (string)
+`posFeedback` (integer): how many positive feedback comments have been received from customers about this employee
 
-`hoursWorked` (integer)
+`hoursWorked` (integer): how many unpaid hours have been worked so far by this employee
 
-`workHoursToday` (integer)
+`workHoursToday` (integer): how many hours this employee worked today
 
-`managerStatus` (Boolean)
+`managerStatus` (Boolean): whether or not the employee is a manager, true = manager, false = employee
 
 
 
 ### Methods
 
-`listEmployees` (uses `employeeNames`; lists employee name)
+`posFeedbackAdd` (modifies `posFeedback`; increases `posFeedback` value by 1)
 
-`countHoursNow` (uses `workHoursToday` to list number of unpaid hours worked)
+`promote`(modifies `managerStatus`; if value = `false`, change value to `true`)
 
-`countTotal` (adds `hoursWorked` to `workHoursToday` )
+`enterHours` (uses `hoursWorked` and `workHoursToday`; adds the value of the two attributes)
 
-`isManager`(uses `managerStatus`; states whether or not the employee is a manager)
-
-`changeManagerStatus` (changes value of `managerStatus`)
+`calcVacation` (uses `hoursWorked` and `workHoursToday`; adds the value of the two attributes, then multiplies product by 0.025 to return the number of vacation days collected by that employee)

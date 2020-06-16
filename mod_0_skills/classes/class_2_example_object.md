@@ -1,12 +1,12 @@
 # class_2_example_object.md
 
 
-## Instances of Employees Class: Samantha Johnson
+## Instances of Employee Class: 'Sam'
 
 
 ### Attributes
 
-`employeeNames`: Sam
+`posFeedback`: 4
 
 `hoursWorked`: 40
 
@@ -18,12 +18,10 @@
 
 ### Methods
 
-`listEmployees`: returns ``['Sam']``
+`posFeedbackAdd`: adds `1` to `4`, returns `5`
 
-`countHoursNow`: returns `8`
+`promote`: changes `managerStatus` value to true, returns `Employee Position: Manager`
 
-`countTotal`: adds `40` to `8` and returns `48`
+`enterHours`: adds `40` and `8`, returns `48`
 
-`isManager`: reads `false` `managerStatus` value, returns `associate`
-
-`changeManagerStatus`: changes `managerStatus` to `true`, returns `Restaurant Manager`
+`calcVacation`: calculates `40+8= 48`, multiplies `48` by `0.025`, returns `1.2 Usable Vacation Days`
